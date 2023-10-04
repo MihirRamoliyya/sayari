@@ -22,10 +22,12 @@ class _thirdState extends State<third> {
   int col_ind = 0;
   bool t = false;
 
+
   //
   @override
   void initState() {
     pageController = PageController(initialPage: widget.index);
+    print("mihir");
   }
 
   @override
@@ -150,7 +152,7 @@ class _thirdState extends State<third> {
                                   data.colors[col_ind],
                                   data.colors[col_ind + 1]
                                 ])
-                              : null, 
+                              : null,
                         ),
                       );
                     },
